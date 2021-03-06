@@ -1,0 +1,164 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#header{
+    background-color: rgb(156, 130, 98);
+    position: sticky;
+    top:0;
+    height: 5vw;
+    display: flex;
+}
+
+.img{
+    width: 50%;
+    margin: 10px;
+  
+}
+
+#header-img{
+width: 6.5%;
+}
+
+#nav-bar{
+width: 50%;
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction:row;
+    align-items: center;
+   
+}
+
+nav ul li {
+list-style: none;
+display: flex;
+justify-content: flex-end;
+flex-direction:row;
+align-items: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 2vw;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul li a:hover{
+color: red;
+}
+
+#product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h2of{
+    font-size: 3vw;
+    text-align: center;
+}
+
+.apple{
+    margin-top: 20px;
+    width: 70%;
+    height: 28vh;
+    
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:93vh ;
+    
+}
+
+input{
+    padding:15px;
+    margin:10px;
+    width: 50%;
+    font-size: 2vw;
+    font-weight: bold;
+    border: rgb(65, 54, 54) 5px solid;
+    border-radius: 15px;
+    outline: none;
+
+    
+}
+
+input::placeholder{
+    color: black;
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+    padding:15px;
+    font-weight: bold;
+    font-size: 2vw;
+    border: rgb(65, 54, 54) 5px solid;
+    border-radius: 15px;
+    outline: none;
+    background-color: rgb(197, 168, 124);
+}
+
+#home{
+    background-color: wheat;
+}
+#contact{
+    background-color: wheat;
+}
+
+footer{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2vw;
+    background-color: rgb(156, 130, 98);
+    height: 5vh;
+}
+ @media only screen and (max-width:840px){
+#header{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.7s ease-out;  
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48%;
+}
+
+#nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+navbar ul{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+} 
